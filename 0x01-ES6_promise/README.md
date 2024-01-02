@@ -1,4 +1,3 @@
-
 # 0x01. ES6 Promises
 
 ## JavaScript
@@ -21,14 +20,14 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - How to use an async function
 
 ### Requirements
-- All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
-- Allowed editors: vi, vim, emacs, Visual Studio Code
-- All your files should end with a new line
-- A README.md file, at the root of the folder of the project, is mandatory
-- Your code should use the js extension
-- Your code will be tested using Jest and the command npm run test
-- Your code will be verified against lint using ESLint
-- All of your functions must be exported
+All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
+Allowed editors: vi, vim, emacs, Visual Studio Code
+All your files should end with a new line
+A README.md file, at the root of the folder of the project, is mandatory
+Your code should use the js extension
+Your code will be tested using Jest and the command npm run test
+Your code will be verified against lint using ESLint
+All of your functions must be exported
 
 ### Setup
 Install NodeJS 12.11.x (in your home directory):
@@ -48,39 +47,9 @@ Install Jest, Babel, and ESLint in your project directory, install Jest, Babel, 
 Add the files below to your project directory
 
 #### package.json
-
-<details>
-  ```json
-<summary>Click to show/hide file contents</summary>
-  ```
-
-  ```json
-  {
-{
-  "scripts": {
-    "lint": "./node_modules/.bin/eslint",
-    "check-lint": "lint [0-9]*.js",
-    "dev": "npx babel-node",
-    "test": "jest",
-    "full-test": "./node_modules/.bin/eslint [0-9]*.js && jest"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.6.0",
-    "@babel/node": "^7.8.0",
-    "@babel/preset-env": "^7.6.0",
-    "eslint": "^6.4.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.17.0",
-    "jest": "^24.9.0"
-  }
-}
-  }
-  ```
-</details>
+```json
+Click to show/hide file contents
 ```
-
-
 
 #### babel.config.js
 ```json
@@ -124,6 +93,9 @@ And don’t forget to run `$ npm install` when you have the package.json
 - **Directory:** `0x01-ES6_promise`
 - **File:** `0-promise.js`
 
+**Instructions:**
+Return a Promise using this prototype function `getResponseFromAPI()`
+
 **Execution:**
 ```bash
 bob@dylan:~$ cat 0-main.js
@@ -144,6 +116,23 @@ bob@dylan:~$
 - **Directory:** `0x01-ES6_promise`
 - **File:** `1-promise.js`
 
+**Instructions:**
+Using the prototype below, return a promise. The parameter is a boolean.
+
+```javascript
+getFullResponseFromAPI(success)
+```
+When the argument is:
+
+- `true`: resolve the promise by passing an object with 2 attributes:
+  ```json
+  {
+    "status": 200,
+    "body": "Success"
+  }
+  ```
+- `false`: reject the promise with an error object with the message "The fake API is not working currently"
+
 **Execution:**
 ```bash
 bob@dylan:~$ cat 1-main.js
@@ -161,12 +150,30 @@ Promise {
     ...
 bob@dylan:~$
 ```
----
+
 ### 2. Catch me if you can!
 **Repo:**
 - **GitHub repository:** `alx-frontend-javascript`
 - **Directory:** `0x01-ES6_promise`
 - **File:** `2-then.js`
+
+**Instructions:**
+Using the function prototype below
+
+```javascript
+function handleResponseFromAPI(promise)
+```
+Append three handlers to the function:
+
+- When the Promise resolves, return an object with the following attributes
+  ```json
+  {
+    "status": 200,
+    "body": "success"
+  }
+  ```
+- When the Promise rejects, return an empty Error object
+- For every resolution, log "Got a response from the API" to the console
 
 **Execution:**
 ```bash
@@ -181,13 +188,22 @@ bob@dylan:~$ npm run dev 2-main.js
 Got a response from the API
 bob@dylan:~$
 ```
----
 
 ### 3. Handle multiple successful promises
 **Repo:**
 - **GitHub repository:** `alx-frontend-javascript`
 - **Directory:** `0x01-ES6_promise`
 - **File:** `3-all.js`
+
+**Instructions:**
+In this file, import `uploadPhoto` and `createUser` from `utils.js`
+
+Knowing that the functions in `utils.js` return promises, use the prototype below to collectively resolve all promises and log `body`, `firstName`, `lastName` to the console.
+
+```javascript
+function handleProfileSignup()
+```
+In the event of an error, log "Signup system offline" to the console
 
 **Execution:**
 ```bash
@@ -201,12 +217,30 @@ bob@dylan:~$ npm run dev 3-main.js
 photo-profile-1 Guillaume Salva
 bob@dylan:~$
 ```
----
+
 ### 4. Simple promise
 **Repo:**
 - **GitHub repository:** `alx-frontend-javascript`
-- **Directory:** `0x01-ES6_promise`
+- **Directory
+
+:** `0x01-ES6_promise`
 - **File:** `4-user-promise.js`
+
+**Instructions:**
+Using the following prototype
+
+```javascript
+function signUpUser(firstName, lastName) {
+}
+```
+That returns a resolved promise with this object:
+
+```json
+{
+  "firstName": value,
+  "lastName": value
+}
+```
 
 **Execution:**
 ```bash
@@ -217,17 +251,20 @@ console.log(signUpUser("Bob", "Dylan"));
 
 bob@dylan:~$
 bob@dylan:~$ npm run dev 4-main.js
-Promise { { firstName
-
-: 'Bob', lastName: 'Dylan' } }
+Promise { { firstName: 'Bob', lastName: 'Dylan' } }
 bob@dylan:~$
 ```
----
+
 ### 5. Reject the promises
 **Repo:**
 - **GitHub repository:** `alx-frontend-javascript`
 - **Directory:** `0x01-ES6_promise`
 - **File:** `5-photo-reject.js`
+
+**Instructions:**
+Write and export a function named `uploadPhoto`. It should accept one argument `fileName` (string).
+
+The function should return a Promise rejecting with an Error and the string `$fileName cannot be processed`
 
 **Execution:**
 ```bash
@@ -244,12 +281,27 @@ Promise {
     ..
 bob@dylan:~$
 ```
----
+
 ### 6. Handle multiple promises
 **Repo:**
 - **GitHub repository:** `alx-frontend-javascript`
 - **Directory:** `0x01-ES6_promise`
 - **File:** `6-final-user.js`
+
+**Instructions:**
+Import `signUpUser` from `4-user-promise.js` and `uploadPhoto` from `5-photo-reject.js`.
+
+Write and export a function named `handleProfileSignup`. It should accept three arguments `firstName` (string), `lastName` (string), and `fileName` (string). The function should call the two other functions. When the promises are all settled it should return an array with the following structure:
+
+```json
+[
+  {
+    "status": status_of_the_promise,
+    "value": value or error returned by the Promise
+  },
+  ...
+]
+```
 
 **Execution:**
 ```bash
@@ -263,12 +315,23 @@ bob@dylan:~$ npm run dev 6-main.js
 Promise { <pending> }
 bob@dylan:~$
 ```
----
+
 ### 7. Load balancer
 **Repo:**
 - **GitHub repository:** `alx-frontend-javascript`
 - **Directory:** `0x01-ES6_promise`
 - **File:** `7-load_balancer.js`
+
+**Instructions:**
+Write and export a function named `loadBalancer`. It should accept two arguments `chinaDownload` (Promise) and `USDownload` (Promise).
+
+The function should return the value returned by the promise that resolved the first.
+
+```javascript
+export default function loadBalancer(chinaDownload, USDownload) {
+
+}
+```
 
 **Execution:**
 ```bash
@@ -303,13 +366,23 @@ Downloading from UK is faster
 Downloading from FR is faster
 bob@dylan:~$
 ```
----
 
 ### 8. Throw error / try catch
 **Repo:**
 - **GitHub repository:** `alx-frontend-javascript`
 - **Directory:** `0x01-ES6_promise`
 - **File:** `8-try.js`
+
+**Instructions:**
+Write a function named `divideFunction` that will accept two arguments: `numerator` (Number) and `denominator` (Number).
+
+When the denominator argument is equal to 0, the function should throw a new error with the message "cannot divide by 0". Otherwise, it should return the numerator divided by the denominator.
+
+```javascript
+export default function divideFunction(numerator, denominator) {
+
+}
+```
 
 **Execution:**
 ```bash
@@ -328,7 +401,7 @@ bob@dylan:~$ npm run dev 8-main.js
 .....
 bob@dylan:~$
 ```
----
+
 ### 9. Throw an error
 **Repo:**
 - **GitHub repository:** `alx-frontend-javascript`
@@ -351,3 +424,4 @@ bob@dylan:~$ npm run dev 9-main.js
 bob@dylan:~$
 ```
 
+Feel free to adjust the formatting or let me know if you have any specific changes you'd like!
