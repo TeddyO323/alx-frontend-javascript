@@ -125,7 +125,10 @@ Directory: `0x00-ES6_basic`
 File: `1-block-scoped.js`
 
 
-Directory: 0x00-ES6_basic
+Certainly! Here is the updated content for all tasks with the requested format:
+
+---
+
 ### 2. Arrow functions
 
 Rewrite the following standard function to use ES6’s arrow syntax of the function `add` (it will be an anonymous function after)
@@ -157,10 +160,11 @@ bob@dylan:~$ npm run dev 2-main.js
 bob@dylan:~$
 ```
 
-**Repo:**
-GitHub repository: `alx-frontend-javascript`
-Directory: `0x00-ES6_basic`
-File: `2-arrow.js`
+- **GitHub Repository:** `alx-frontend-javascript`
+- **Directory:** `0x00-ES6_basic`
+- **File:** `2-arrow.js`
+
+---
 
 ### 3. Parameter defaults
 
@@ -189,10 +193,11 @@ bob@dylan:~$ npm run dev 3-main.js
 bob@dylan:~$
 ```
 
-**Repo:**
-GitHub repository: `alx-frontend-javascript`
-Directory: `0x00-ES6_basic`
-File: `3-default-parameter.js`
+- **GitHub Repository:** `alx-frontend-javascript`
+- **Directory:** `0x00-ES6_basic`
+- **File:** `3-default-parameter.js`
+
+---
 
 ### 4. Rest parameter syntax for functions
 
@@ -227,10 +232,11 @@ bob@dylan:~$ npm run dev 4-main.js
 bob@dylan:~$
 ```
 
-**Repo:**
-GitHub repository: `alx-frontend-javascript`
-Directory: `0x00-ES6_basic`
-File: `4-rest-parameter.js`
+- **GitHub Repository:** `alx-frontend-javascript`
+- **Directory:** `0x00-ES6_basic`
+- **File:** `4-rest-parameter.js`
+
+---
 
 ### 5. The wonders of spread syntax
 
@@ -260,10 +266,11 @@ bob@dylan:~$ npm run dev 5-main.js
 bob@dylan:~$
 ```
 
-**Repo:**
-GitHub repository: `alx-frontend-javascript`
-Directory: `0x00-ES6_basic`
-File: `5-spread-operator.js`
+- **GitHub Repository:** `alx-frontend-javascript`
+- **Directory:** `0x00-ES6_basic`
+- **File:** `5-spread-operator.js`
+
+---
 
 ### 6. Take advantage of template literals
 
@@ -296,10 +303,11 @@ As of 2017, it was the seventh-highest income county in the United States, with 
 bob@dylan:~$
 ```
 
-**Repo:**
-GitHub repository: `alx-frontend-javascript`
-Directory: `0x00-ES6_basic`
-File: `6-string-interpolation.js`
+- **GitHub Repository:** `alx-frontend-javascript`
+- **Directory:** `0x00-ES6_basic`
+- **File:** `6-string-interpolation.js`
+
+---
 
 ### 7. Object property value shorthand syntax
 
@@ -333,10 +341,11 @@ bob@dylan:~$ npm run dev 7-main.js
 bob@dylan:~$
 ```
 
-**Repo:**
-GitHub repository: `alx-frontend-javascript`
-Directory: `0x00-ES6_basic`
-File: `7-getBudgetObject.js`
+- **GitHub Repository:** `alx-frontend-javascript`
+- **Directory:** `0x00-ES6_basic`
+- **File:** `7-getBudgetObject.js`
+
+---
 
 ### 8. No need to create empty objects before adding in properties
 
@@ -349,10 +358,10 @@ function getCurrentYear() {
 }
 
 export default function getBudgetForCurrentYear(income, gdp, capita) {
-  const budget = {
-    [`income-${getCurrentYear()}`]:
+  const
 
- income,
+ budget = {
+    [`income-${getCurrentYear()}`]: income,
     [`gdp-${getCurrentYear()}`]: gdp,
     [`capita-${getCurrentYear()}`]: capita,
   };
@@ -375,10 +384,11 @@ bob@dylan:~$ npm run dev 8-main.js
 bob@dylan:~$
 ```
 
-**Repo:**
-GitHub repository: `alx-frontend-javascript`
-Directory: `0x00-ES6_basic`
-File: `8-getBudgetCurrentYear.js`
+- **GitHub Repository:** `alx-frontend-javascript`
+- **Directory:** `0x00-ES6_basic`
+- **File:** `8-getBudgetCurrentYear.js`
+
+---
 
 ### 9. ES6 method properties
 
@@ -421,14 +431,15 @@ $20
 bob@dylan:~$
 ```
 
-**Repo:**
-GitHub repository: `alx-frontend-javascript`
-Directory: `0x00-ES6_basic`
-File: `9-getFullBudget.js`
+- **GitHub Repository:** `alx-frontend-javascript`
+- **Directory:** `0x00-ES6_basic`
+- **File:** `9-getFullBudget.js`
+
+---
 
 ### 10. For...of Loops
 
-Rewrite the `appendToEachArrayValue` function to use ES6’s for...of operator. And don’t forget that var is not ES6-friendly.
+Rewrite the `appendToEachArrayValue` function to use ES6’s for...of operator. And don’t forget that `var` is not ES6-friendly.
 
 ```javascript
 export default function appendToEachArrayValue(array, appendString) {
@@ -454,10 +465,11 @@ bob@dylan:~$ npm run dev 10-main.js
 bob@dylan:~$
 ```
 
-**Repo:**
-GitHub repository: `alx-frontend-javascript`
-Directory: `0x00-ES6_basic`
-File: `10-loops.js`
+- **GitHub Repository:** `alx-frontend-javascript`
+- **Directory:** `0x00-ES6_basic`
+- **File:** `10-loops.js`
+
+---
 
 ### 11. Iterator
 
@@ -488,10 +500,11 @@ bob@dylan:~$ npm run dev 11-main.js
 bob@dylan:~$
 ```
 
-**Repo:**
-GitHub repository: `alx-frontend-javascript`
-Directory: `0x00-ES6_basic`
-File: `11-createEmployeesObject.js`
+- **GitHub Repository:** `alx-frontend-javascript`
+- **Directory:** `0x00-ES6_basic`
+- **File:** `11-createEmployeesObject.js`
+
+---
 
 ### 12. Let's create a report object
 
@@ -531,7 +544,6 @@ bob@dylan:~$ npm run dev 12-main.js
 bob@dylan:~$
 ```
 
-**Repo:**
-GitHub repository: `alx-frontend-javascript`
-Directory: `0x00-ES6_basic`
-File: `12-createReportObject.js`
+- **GitHub Repository:** `alx-frontend-javascript`
+- **Directory:** `0x00-ES6_basic`
+- **File:** `12-createReportObject.js`
