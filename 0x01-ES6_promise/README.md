@@ -424,4 +424,3 @@ bob@dylan:~$ npm run dev 9-main.js
 bob@dylan:~$
 ```
 
-Feel free to adjust the formatting or let me know if you have any specific changes you'd like!
