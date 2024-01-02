@@ -1,4 +1,3 @@
-Certainly! Here is the content in markdown format:
 
 ### Concepts
 
@@ -126,17 +125,7 @@ Directory: `0x00-ES6_basic`
 File: `1-block-scoped.js`
 
 
-#### 0. Const or let?
-
-Modify the `taskFirst` function to instantiate variables using `const`, and `taskNext` to instantiate variables using `let`.
-
-**Repo:**
-GitHub repository: [alx-frontend-javascript](<link>)
 Directory: 0x00-ES6_basic
-File: [0-constants.js](<link>)
-
-Certainly! Here is the updated content for all tasks with GitHub repository, Directory, and File highlighted as code:
-
 ### 2. Arrow functions
 
 Rewrite the following standard function to use ES6’s arrow syntax of the function `add` (it will be an anonymous function after)
