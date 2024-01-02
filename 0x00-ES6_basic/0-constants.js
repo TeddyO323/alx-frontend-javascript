@@ -1,18 +1,15 @@
-// taskFirst
 export function taskFirst() {
-    const myVar = 20;
-    const message = 'Hello JavaScript';
-  
-    console.log(myVar);
-    console.log(message);
+    const task = 'I prefer const when I can.';
+    return task;
   }
   
-  // taskNext
+  export function getLast() {
+    return ' is okay';
+  }
+  
   export function taskNext() {
-    let myVar = 10;
-    let message = 'Hi there!';
+    let combination = 'But sometimes let';
+    combination += getLast();
   
-    console.log(myVar);
-    console.log(message);
+    return combination;
   }
-  
