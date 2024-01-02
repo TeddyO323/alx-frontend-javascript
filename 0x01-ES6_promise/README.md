@@ -48,10 +48,11 @@ Install Jest, Babel, and ESLint in your project directory, install Jest, Babel, 
 Add the files below to your project directory
 
 #### package.json
-Markdown itself does not provide a built-in feature for toggling or showing/hiding content. However, you can achieve a similar effect using HTML and JavaScript in a markdown file. Here's an example:
 
 <details>
-  <summary>Click to show/hide file contents</summary>
+  ```json
+<summary>Click to show/hide file contents</summary>
+  ```
 
   ```json
   {
