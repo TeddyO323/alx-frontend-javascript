@@ -1,4 +1,5 @@
 # 0x02. ES6 classes
+![OpenAI Logo](../images/817248fb77fb5c2cef3f.jpeg)
 
 ## OOP
 - JavaScript
