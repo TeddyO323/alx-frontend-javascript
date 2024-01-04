@@ -1,51 +1,43 @@
-class HolbertonCourse {
+export default class HolbertonCourse {
   constructor(name, length, students) {
-    this._name = this.validateString(name, 'Name');
-    this._length = this.validateNumber(length, 'Length');
+    if (typeof name !== 'string' || typeof length !== 'number' || !Array.isArray(students)) {
+      throw new Error('Invalid input type');
+    }
+    this._name = name;
+    this._length = length;
     this._students = students;
   }
 
-  validateString(value, propertyName) {
-    if (typeof value !== 'string') {
-      throw new TypeError(`${propertyName} must be a string`);
-    }
-    return value;
-  }
-
-  validateNumber(value, propertyName) {
-    if (typeof value !== 'number') {
-      throw new TypeError(`${propertyName} must be a number`);
-    }
-    return value;
-  }
-
-  // Getter and Setter for 'name'
   get name() {
     return this._name;
   }
 
   set name(value) {
-    this._name = this.validateString(value, 'Name');
+    if (typeof value !== 'string') {
+      throw new Error('Invalid input type');
+    }
+    this._name = value;
   }
 
-  // Getter and Setter for 'length'
   get length() {
     return this._length;
   }
 
   set length(value) {
-    this._length = this.validateNumber(value, 'Length');
+    if (typeof value !== 'number') {
+      throw new Error('Invalid input type');
+    }
+    this._length = value;
   }
 
-  // Getter and Setter for 'students'
   get students() {
     return this._students;
   }
 
   set students(value) {
-    // Validate the type of 'value' if needed
+    if (!Array.isArray(value)) {
+      throw new Error('Invalid input type');
+    }
     this._students = value;
   }
 }
-
-export default HolbertonCourse;
