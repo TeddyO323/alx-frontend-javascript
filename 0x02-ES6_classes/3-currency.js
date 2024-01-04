@@ -1,5 +1,3 @@
-// 3-currency.js
-
 class Currency {
     constructor(code, name) {
       this._code = code;
