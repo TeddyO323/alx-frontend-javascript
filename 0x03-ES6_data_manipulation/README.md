@@ -70,8 +70,8 @@ By the end of this project, you are expected to be able to explain to anyone, wi
 
 ### Task Overview
 
-| Task | Description | Status   | Marks |
-| ---- | ----------- | -------- | ----- |
+| Task                | Description         | Status           | Marks      |
+| -----------         | -----------         | --------         | -----      |
 | 0    | [ES6 data manipulation](./0-get_list_students.js) | Completed | 100   |
 | 1    | [More mapping](./1-get_list_student_ids.js) | Completed | 100   |
 | 2    | [Filter](./2-get_students_by_loc.js) | Completed | 100   |
