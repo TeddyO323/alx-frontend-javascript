@@ -8,7 +8,7 @@
 ![Arrays](images/6ab7bec4727cb5c91257.jpg)
 
 
-### Resources
+## Resources
 
 Read or watch:
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
@@ -17,7 +17,7 @@ Read or watch:
 - [Map Data Structure](https://intranet.alxswe.com/rltoken/XR-ql9v9-PWcXnvTc749gw)
 - [WeakMap](https://intranet.alxswe.com/rltoken/NEy8fk2QRytajR8hgXkCog)
 
-### Learning Objectives
+## Learning Objectives
 
 By the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
@@ -25,7 +25,7 @@ By the end of this project, you are expected to be able to explain to anyone, wi
 - Typed arrays
 - The Set, Map, and Weak link data structures
 
-### Requirements
+## Requirements
 
 - All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
 - Allowed editors: vi, vim, emacs, Visual Studio Code
@@ -37,7 +37,7 @@ By the end of this project, you are expected to be able to explain to anyone, wi
 - Your code needs to pass all the tests and lint. You can verify the entire project running `npm run full-test`
 - All of your functions must be exported
 
-### Setup
+## Setup
 
 1. Install NodeJS 12.11.x (in your home directory):
     ```bash
@@ -58,7 +58,7 @@ By the end of this project, you are expected to be able to explain to anyone, wi
    
    **Don't forget to run `$ npm install` when you have the package.json**
 
-### Tasks
+## Tasks
 
 #### 0. Basic list of objects (mandatory)
 
@@ -78,9 +78,11 @@ console.log(getListStudents());
 ```
 
 **Repo:**
-GitHub repository: [alx-frontend-javascript](#)  
-Directory: 0x03-ES6_data_manipulation  
-File: 0-get_list_students.js
+- GitHub repository: [`alx-frontend-javascript`](#)  
+- Directory: `0x03-ES6_data_manipulation`  
+- File: `0-get_list_students.js`
+
+---
 
 #### 1. More mapping (mandatory)
 
@@ -100,9 +102,11 @@ console.log(getListStudentIds(getListStudents()));
 ```
 
 **Repo:**
-GitHub repository: [alx-frontend-javascript](#)  
-Directory: 0x03-ES6_data_manipulation  
-File: 1-get_list_student_ids.js
+- GitHub repository: [`alx-frontend-javascript`](#)  
+- Directory: `0x03-ES6_data_manipulation`  
+- File: `1-get_list_student_ids.js`
+
+---
 
 #### 2. Filter (mandatory)
 
@@ -125,9 +129,11 @@ console.log(getStudentsByLocation(students, 'San Francisco'));
 ```
 
 **Repo:**
-GitHub repository: [alx-frontend-javascript](#)  
-Directory: 0x03-ES6_data_manipulation  
-File: 2-get_students_by_loc.js
+- GitHub repository: [`alx-frontend-javascript`](#)  
+- Directory: `0x03-ES6_data_manipulation`  
+- File: `2-get_students_by_loc.js`
+
+---
 
 #### 3. Reduce (mandatory)
 
@@ -147,9 +153,11 @@ console.log(value);
 ```
 
 **Repo:**
-GitHub repository: [alx-frontend-javascript](#)  
-Directory: 0x03-ES6_data_manipulation  
-File: 3-get_ids_sum.js
+- GitHub repository: [`alx-frontend-javascript`](#)  
+- Directory: `0x03-ES6_data_manipulation`  
+- File: `3-get_ids_sum.js`
+
+---
 
 #### 4. Combine (mandatory)
 
@@ -177,11 +185,11 @@ console.log(updateStudentGradeByCity(getListStudents(), "San Francisco", [{ stud
 ```
 
 **Repo:**
-GitHub repository: [alx-frontend-javascript](#)  
-Directory: 0x03-ES6_data_manipulation  
-File: 4-update_grade_by_city
+- GitHub repository: [`alx-frontend-javascript`](#)  
+- Directory: `0x03-ES6_data_manipulation`  
+- File: `4-update_grade_by_city.js`
 
-.js
+---
 
 #### 5. Typed Arrays (mandatory)
 
@@ -205,9 +213,11 @@ console.log(createInt8TypedArray(10, 2, 89));
 ```
 
 **Repo:**
-GitHub repository: [alx-frontend-javascript](#)  
-Directory: 0x03-ES6_data_manipulation  
-File: 5-typed_arrays.js
+- GitHub repository: [`alx-frontend-javascript`](#)  
+- Directory: `0x03-ES6_data_manipulation`  
+- File: `5-typed_arrays.js`
+
+---
 
 #### 6. Set data structure (mandatory)
 
@@ -223,9 +233,11 @@ console.log(setFromArray([12, 32, 15, 78, 98, 15]));
 ```
 
 **Repo:**
-GitHub repository: [alx-frontend-javascript](#)  
-Directory: 0x03-ES6_data_manipulation  
-File: 6-set.js
+- GitHub repository: [`alx-frontend-javascript`](#)  
+- Directory: `0x03-ES6_data_manipulation`  
+- File: `6-set.js`
+
+---
 
 #### 7. More set data structure (mandatory)
 
@@ -247,9 +259,11 @@ console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [1, 10]));
 ```
 
 **Repo:**
-GitHub repository: [alx-frontend-javascript](#)  
-Directory: 0x03-ES6_data_manipulation  
-File: 7-has_array_values.js
+- GitHub repository: [`alx-frontend-javascript`](#)  
+- Directory: `0x03-ES6_data_manipulation`  
+- File: `7-has_array_values.js`
+
+---
 
 #### 8. Clean set (mandatory)
 
@@ -268,9 +282,11 @@ console.log(cleanSet(new Set(['bonjovi', 'bonaparte', 'bonappetit', 'banana']), 
 ```
 
 **Repo:**
-GitHub repository: [alx-frontend-javascript](#)  
-Directory: 0x03-ES6_data_manipulation  
-File: 8-clean_set.js
+- GitHub repository: [`alx-frontend-javascript`](#)  
+- Directory: `0x03-ES6_data_manipulation`  
+- File: `8-clean_set.js`
+
+---
 
 #### 9. Map data structure (mandatory)
 
@@ -299,9 +315,11 @@ console.log(groceriesList());
 ```
 
 **Repo:**
-GitHub repository: [alx-frontend-javascript](#)  
-Directory: 0x03-ES6_data_manipulation  
-File: 9-groceries_list.js
+- GitHub repository: [`alx-frontend-javascript`](#)  
+- Directory: `0x03-ES6_data_manipulation`  
+- File: `9-groceries_list.js`
+
+---
 
 #### 10. More map data structure (mandatory)
 
@@ -338,9 +356,11 @@ console.log(map);
 ```
 
 **Repo:**
-GitHub repository: [alx-frontend-javascript](#)  
-Directory: 0x03-ES6_data_manipulation  
-File: 10-update_uniq_items.js
+- GitHub repository: [`alx-frontend-javascript`](#)  
+- Directory: `0x03-ES6_data_manipulation`  
+- File: `10-update_uniq_items.js`
+
+--- 
 
 #### 11. Weak link data structure (#advanced)
 
@@ -386,7 +406,7 @@ queryAPI(endpoint);
 ```
 
 **Repo:**
-GitHub repository: [alx-frontend-javascript](#)  
-Directory: 0x03-ES6_data_manipulation  
-File: 100-weak.js
+- GitHub repository: ``alx-frontend-javascript``  
+- Directory: `0x03-ES6_data_manipulation`  
+- File: `100-weak.js`
 ```
