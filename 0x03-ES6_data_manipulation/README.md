@@ -161,28 +161,55 @@ console.log(value);
 
 #### 4. Combine (mandatory)
 
-Create a function `updateStudentGradeByCity` that returns an array of students for a specific city with their new grade. It should accept a list of students (from `getListStudents`), a city (String), and newGrades (Array of "grade" objects) as parameters.
+ <p>Create a function <code>updateStudentGradeByCity</code> that returns an array of students for a specific city with their new grade</p>
 
-Example:
+<p>It should accept a list of students (from <code>getListStudents</code>), a <code>city</code> (String), and <code>newGrades</code> (Array of &ldquo;grade&rdquo; objects) as parameters. </p>
 
-```js
-import getListStudents from "./0-get_list_students.js";
-import updateStudentGradeByCity from "./4-update_grade_by_city.js";
+<p><code>newGrades</code> is an array of objects with this format:</p>
 
-console.log(updateStudentGradeByCity(getListStudents(), "San Francisco", [{ studentId: 5, grade: 97 }, { studentId: 1, grade: 86 }]));
-// Output:
-// [
-//   { id: 1, firstName: 'Guillaume', location: 'San Francisco', grade: 86 },
-//   { id: 5, firstName: 'Serena', location: 'San Francisco', grade: 97 }
-// ]
+<pre><code>  {
+    studentId: 31,
+    grade: 78,
+  }
+</code></pre>
 
-console.log(updateStudentGradeByCity(getListStudents(), "San Francisco", [{ studentId: 5, grade: 97 }]));
-// Output:
-// [
-//   { id: 1, firstName: 'Guillaume', location: 'San Francisco', grade: 'N/A' },
-//   { id: 5, firstName: 'Serena', location: 'San Francisco', grade: 97 }
-// ]
-```
+<p>If a student doesn&rsquo;t have grade in <code>newGrades</code>, the final grade should be <code>N/A</code>.</p>
+
+<p>You must use <code>filter</code> and <code>map</code> combined.</p>
+
+<pre><code>bob@dylan:~$ cat 4-main.js
+import getListStudents from &quot;./0-get_list_students.js&quot;;
+import updateStudentGradeByCity from &quot;./4-update_grade_by_city.js&quot;;
+
+console.log(updateStudentGradeByCity(getListStudents(), &quot;San Francisco&quot;, [{ studentId: 5, grade: 97 }, { studentId: 1, grade: 86 }]));
+
+console.log(updateStudentGradeByCity(getListStudents(), &quot;San Francisco&quot;, [{ studentId: 5, grade: 97 }]));
+
+bob@dylan:~$ 
+bob@dylan:~$ npm run dev 4-main.js 
+[
+  {
+    id: 1,
+    firstName: &#39;Guillaume&#39;,
+    location: &#39;San Francisco&#39;,
+    grade: 86
+  },
+  { id: 5, firstName: &#39;Serena&#39;, location: &#39;San Francisco&#39;, grade: 97 }
+]
+[
+  {
+    id: 1,
+    firstName: &#39;Guillaume&#39;,
+    location: &#39;San Francisco&#39;,
+    grade: &#39;N/A&#39;
+  },
+  { id: 5, firstName: &#39;Serena&#39;, location: &#39;San Francisco&#39;, grade: 97 }
+]
+bob@dylan:~$ 
+</code></pre>
+
+  </div>
+
 
 **Repo:**
 - GitHub repository: `alx-frontend-javascript`  
