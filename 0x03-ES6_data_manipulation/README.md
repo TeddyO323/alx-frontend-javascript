@@ -17,6 +17,7 @@
 | ESLint       | 7.32.0  |
 
 
+
 ## Resources
 
 Read or watch:
@@ -66,6 +67,24 @@ By the end of this project, you are expected to be able to explain to anyone, wi
    - [.eslintrc.js](#)
    
    **Don't forget to run `$ npm install` when you have the package.json**
+
+   ### Task Overview
+
+| Task | Description | Status   | Marks |
+| ---- | ----------- | -------- | ----- |
+| 0    | [ES6 data manipulation](./0x03-ES6_data_manipulation/0-get_list_students.js) | Completed | 100%   |
+| 1    | [More mapping](./0x03-ES6_data_manipulation/1-get_list_student_ids.js) | Completed | 100%   |
+| 2    | [Filter](./0x03-ES6_data_manipulation/2-get_students_by_loc.js) | Completed | 100%   |
+| 3    | [Reduce](./0x03-ES6_data_manipulation/3-get_ids_sum.js) | Completed | 100%   |
+| 4    | [Combine](./0x03-ES6_data_manipulation/4-update_grade_by_city.js) | Completed | 100%   |
+| 5    | [Typed Arrays](./0x03-ES6_data_manipulation/5-typed_arrays.js) | Completed | 100%   |
+| 6    | [Set data structure](./0x03-ES6_data_manipulation/6-set.js) | Completed | 100%   |
+| 7    | [More set data structure](./0x03-ES6_data_manipulation/7-has_array_values.js) | Completed | 100%   |
+| 8    | [Clean set](./0x03-ES6_data_manipulation/8-clean_set.js) | Completed | 100%   |
+| 9    | [Map data structure](./0x03-ES6_data_manipulation/9-groceries_list.js) | Completed | 100%   |
+| 10   | [More map data structure](./0x03-ES6_data_manipulation/10-update_uniq_items.js) | Completed | 100%   |
+| 11   | [Weak link data structure](./0x03-ES6_data_manipulation/100-weak.js) | Completed | 100%   |
+
 
 ## Tasks
 
