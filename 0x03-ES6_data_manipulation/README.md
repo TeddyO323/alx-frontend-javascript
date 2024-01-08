@@ -193,7 +193,11 @@ console.log(updateStudentGradeByCity(getListStudents(), "San Francisco", [{ stud
 
 #### 5. Typed Arrays (mandatory)
 
-Create a function `createInt8TypedArray` that returns a new ArrayBuffer with an Int8 value at a specific position. It should accept three arguments: `length` (Number), `position` (Number), and `value` (Number).
+  <p>Create a function named <code>createInt8TypedArray</code> that returns a new <code>ArrayBuffer</code> with an <code>Int8</code> value at a specific position.</p>
+
+<p>It should accept three arguments: <code>length</code> (Number), <code>position</code> (Number), and <code>value</code> (Number).</p>
+
+<p>If adding the value is not possible the error <code>Position outside range</code> should be thrown.</p>
 
 Example:
 
