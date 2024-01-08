@@ -1,4 +1,3 @@
-```markdown
 # 0x03. ES6 Data Manipulation
 
 ## JavaScript - ES6
