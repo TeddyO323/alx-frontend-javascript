@@ -7,6 +7,15 @@
 
 ![Arrays](images/6ab7bec4727cb5c91257.jpg)
 
+### Dependencies
+
+| Dependency   | Version |
+| ------------ | ------- |
+| Node.js      | 12.11.x |
+| Jest         | 27.0.0  |
+| Babel        | 7.15.0  |
+| ESLint       | 7.32.0  |
+
 
 ## Resources
 
