@@ -78,7 +78,7 @@ console.log(getListStudents());
 ```
 
 **Repo:**
-- GitHub repository: [`alx-frontend-javascript`](#)  
+- GitHub repository: `alx-frontend-javascript`  
 - Directory: `0x03-ES6_data_manipulation`  
 - File: `0-get_list_students.js`
 
@@ -102,7 +102,7 @@ console.log(getListStudentIds(getListStudents()));
 ```
 
 **Repo:**
-- GitHub repository: [`alx-frontend-javascript`](#)  
+- GitHub repository: `alx-frontend-javascript`  
 - Directory: `0x03-ES6_data_manipulation`  
 - File: `1-get_list_student_ids.js`
 
@@ -129,7 +129,7 @@ console.log(getStudentsByLocation(students, 'San Francisco'));
 ```
 
 **Repo:**
-- GitHub repository: [`alx-frontend-javascript`](#)  
+- GitHub repository: `alx-frontend-javascript`  
 - Directory: `0x03-ES6_data_manipulation`  
 - File: `2-get_students_by_loc.js`
 
@@ -153,7 +153,7 @@ console.log(value);
 ```
 
 **Repo:**
-- GitHub repository: [`alx-frontend-javascript`](#)  
+- GitHub repository: `alx-frontend-javascript`  
 - Directory: `0x03-ES6_data_manipulation`  
 - File: `3-get_ids_sum.js`
 
@@ -185,7 +185,7 @@ console.log(updateStudentGradeByCity(getListStudents(), "San Francisco", [{ stud
 ```
 
 **Repo:**
-- GitHub repository: [`alx-frontend-javascript`](#)  
+- GitHub repository: `alx-frontend-javascript`  
 - Directory: `0x03-ES6_data_manipulation`  
 - File: `4-update_grade_by_city.js`
 
@@ -213,7 +213,7 @@ console.log(createInt8TypedArray(10, 2, 89));
 ```
 
 **Repo:**
-- GitHub repository: [`alx-frontend-javascript`](#)  
+- GitHub repository: `alx-frontend-javascript`  
 - Directory: `0x03-ES6_data_manipulation`  
 - File: `5-typed_arrays.js`
 
@@ -233,7 +233,7 @@ console.log(setFromArray([12, 32, 15, 78, 98, 15]));
 ```
 
 **Repo:**
-- GitHub repository: [`alx-frontend-javascript`](#)  
+- GitHub repository: `alx-frontend-javascript`  
 - Directory: `0x03-ES6_data_manipulation`  
 - File: `6-set.js`
 
@@ -259,7 +259,7 @@ console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [1, 10]));
 ```
 
 **Repo:**
-- GitHub repository: [`alx-frontend-javascript`](#)  
+- GitHub repository: `alx-frontend-javascript`  
 - Directory: `0x03-ES6_data_manipulation`  
 - File: `7-has_array_values.js`
 
@@ -282,7 +282,7 @@ console.log(cleanSet(new Set(['bonjovi', 'bonaparte', 'bonappetit', 'banana']), 
 ```
 
 **Repo:**
-- GitHub repository: [`alx-frontend-javascript`](#)  
+- GitHub repository: `alx-frontend-javascript`  
 - Directory: `0x03-ES6_data_manipulation`  
 - File: `8-clean_set.js`
 
@@ -315,7 +315,7 @@ console.log(groceriesList());
 ```
 
 **Repo:**
-- GitHub repository: [`alx-frontend-javascript`](#)  
+- GitHub repository: `alx-frontend-javascript`  
 - Directory: `0x03-ES6_data_manipulation`  
 - File: `9-groceries_list.js`
 
@@ -356,7 +356,7 @@ console.log(map);
 ```
 
 **Repo:**
-- GitHub repository: [`alx-frontend-javascript`](#)  
+- GitHub repository: `alx-frontend-javascript`  
 - Directory: `0x03-ES6_data_manipulation`  
 - File: `10-update_uniq_items.js`
 
