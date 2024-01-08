@@ -72,7 +72,7 @@ By the end of this project, you are expected to be able to explain to anyone, wi
 
 | Task | Description | Status   | Marks |
 | ---- | ----------- | -------- | ----- |
-| 0    | [ES6 data manipulation](./0x03-ES6_data_manipulation/0-get_list_students.js) | Completed | 100%   |
+| 0    | [ES6 data manipulation](./0-get_list_students.js) | Completed | 100%   |
 | 1    | [More mapping](./0x03-ES6_data_manipulation/1-get_list_student_ids.js) | Completed | 100%   |
 | 2    | [Filter](./0x03-ES6_data_manipulation/2-get_students_by_loc.js) | Completed | 100%   |
 | 3    | [Reduce](./0x03-ES6_data_manipulation/3-get_ids_sum.js) | Completed | 100%   |
