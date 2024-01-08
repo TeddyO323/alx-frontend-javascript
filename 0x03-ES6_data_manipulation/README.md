@@ -64,6 +64,14 @@ By the end of this project, you are expected to be able to explain to anyone, wi
 
 Create a function named `getListStudents` that returns an array of objects. Each object should have three attributes: `id` (Number), `firstName` (String), and `location` (String).
 
+<p>The array contains the following students in order: </p>
+
+<ul>
+<li><code>Guillaume</code>, id: <code>1</code>, in <code>San Francisco</code></li>
+<li><code>James</code>, id: <code>2</code>, in <code>Columbia</code></li>
+<li><code>Serena</code>, id: <code>5</code>, in <code>San Francisco</code></li>
+</ul>
+
 Example:
 
 ```js
@@ -86,8 +94,13 @@ console.log(getListStudents());
 
 #### 1. More mapping (mandatory)
 
-Create a function `getListStudentIds` that returns an array of ids from a list of objects. This function takes an array of objects as an argument (similar to the output of `getListStudents` from the previous task).
+<p>Create a function <code>getListStudentIds</code> that returns an array of ids from a list of object.</p>
 
+<p>This function is taking one argument which is an array of objects - and this array is the same format as <code>getListStudents</code> from the previous task.</p>
+
+<p>If the argument is not an array, the function is returning an empty array.</p>
+
+<p>You must use the <code>map</code> function on the array.</p>
 Example:
 
 ```js
@@ -110,7 +123,11 @@ console.log(getListStudentIds(getListStudents()));
 
 #### 2. Filter (mandatory)
 
-Create a function `getStudentsByLocation` that returns an array of objects located in a specific city. It should accept a list of students (from `getListStudents`) and a city (string) as parameters.
+<p>Create a function <code>getStudentsByLocation</code> that returns an array of objects who are located in a specific city.</p>
+
+<p>It should accept a list of students (from <code>getListStudents</code>) and a <code>city</code> (string) as parameters.</p>
+
+<p>You must use the <code>filter</code> function on the array.</p>
 
 Example:
 
@@ -137,8 +154,11 @@ console.log(getStudentsByLocation(students, 'San Francisco'));
 
 #### 3. Reduce (mandatory)
 
-Create a function `getStudentIdsSum` that returns the sum of all student ids. It should accept a list of students (from `getListStudents`) as a parameter.
+<p>Create a function <code>getStudentIdsSum</code> that returns the sum of all the student ids.</p>
 
+<p>It should accept a list of students (from <code>getListStudents</code>) as a parameter. </p>
+
+<p>You must use the <code>reduce</code> function on the array. </p>
 Example:
 
 ```js
@@ -252,7 +272,9 @@ console.log(createInt8TypedArray(10, 2, 89));
 
 #### 6. Set data structure (mandatory)
 
-Create a function `setFromArray` that returns a Set from an array. It accepts an argument (Array, of any kind of element).
+<p>Create a function named <code>setFromArray</code> that returns a <code>Set</code> from an array.</p>
+
+<p>It accepts an argument (Array, of any kind of element). </p>
 
 Example:
 
@@ -272,7 +294,9 @@ console.log(setFromArray([12, 32, 15, 78, 98, 15]));
 
 #### 7. More set data structure (mandatory)
 
-Create a function `hasValuesFromArray` that returns a boolean if all the elements in the array exist within the set. It accepts two arguments: a set (Set) and an array (Array).
+<p>Create a function named <code>hasValuesFromArray</code> that returns a boolean if all the elements in the array exist within the set.</p>
+
+<p>It accepts two arguments: a <code>set</code> (Set) and an <code>array</code> (Array). </p>
 
 Example:
 
@@ -298,7 +322,11 @@ console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [1, 10]));
 
 #### 8. Clean set (mandatory)
 
-Create a function `cleanSet` that returns a string of all the set values that start with a specific string (`startString`). It accepts two arguments: a set (Set) and a `startString` (String).
+<p>Create a function named <code>cleanSet</code> that returns a string of all the set values that start with a specific string (<code>startString</code>).</p>
+
+<p>It accepts two arguments: a <code>set</code> (Set) and a <code>startString</code> (String). </p>
+
+<p>When a value starts with <code>startString</code> you only append the rest of the string. The string contains all the values of the set separated by <code>-</code>. </p>
 
 Example:
 
@@ -354,9 +382,12 @@ console.log(groceriesList());
 
 #### 10. More map data structure (mandatory)
 
-Create a function `updateUniqueItems` that returns an updated map for all items with an initial quantity at 1. It should accept a map as an argument. The map it accepts for the argument is similar to the map you create in the previous task.
+<p>Create a function named <code>updateUniqueItems</code> that returns an updated map for all items with initial quantity at 1.</p>
 
-For each entry of the map where the quantity is 1, update the quantity to 100. If updating the quantity is not possible (argument is not a map) the error `Cannot process` should be thrown.
+<p>It should accept a map as an argument. The map it accepts for argument is similar to the map you create in the previous task.</p>
+
+<p>For each entry of the map where the quantity is 1, update the quantity to 100. 
+If updating the quantity is not possible (argument is not a map) the error <code>Cannot process</code> should be thrown.</p>
 
 Example:
 
