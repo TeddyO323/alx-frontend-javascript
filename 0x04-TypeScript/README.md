@@ -93,8 +93,6 @@ Please use these files for the following tasks:
 
 ---
 
-Certainly! Based on the provided information and assuming a standard TypeScript project structure, here's a general overview of the project's directory structure:
-
 ```
 - alx-frontend-javascript/
   - 0x04-TypeScript/
