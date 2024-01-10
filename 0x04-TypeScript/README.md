@@ -92,8 +92,6 @@ Please use these files for the following tasks:
 - [webpack.config.js](task_0/webpack.config.js)
 
 ---
-
-```
 - alx-frontend-javascript/
   - 0x04-TypeScript/
     - task_0/
@@ -140,7 +138,6 @@ Please use these files for the following tasks:
       - webpack.config.js
       - js/
         - main.ts
-```
 
 **Explanation:**
 
