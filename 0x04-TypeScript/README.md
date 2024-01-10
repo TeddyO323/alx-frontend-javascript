@@ -588,3 +588,10 @@ Repo:
 - Directory: `0x04-TypeScript`
 - File: `task_5/js/main.ts, task_5/package.json, task_5/webpack.config.js, task_5/tsconfig.json`
 ```
+
+
+
+
+```markdown
+<span style="color:red;">This text is red.</span>
+```
